@@ -1,0 +1,54 @@
+html {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth
+}
+
+
+div#header {
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    padding: 12px 0px 20px 0px
+}
+
+div#logo a {
+    color: white;
+    text-align: left;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none
+}
+
+div#header #navigation {
+    text-align: right;
+    float: right
+}
+
+div#header #navigation a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+body {
+    background-color:#000000;
+    color: #eee;
+    font-family: montserrat;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+
+}
+
+.container {
+    font-family: montserrat;
+
+    padding: 20px;
+    min-width: 30vw;
+    max-width: 600px
+}
