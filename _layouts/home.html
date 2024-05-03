@@ -70,20 +70,14 @@
         function animate() {
             requestAnimationFrame(animate);
             
-            globe.rotation.y += 0.001 ;
-            globe2.rotation.y += 0.001 ;
+            globe.rotation.y += 0.005 ;
+            globe2.rotation.y += 0.005 ;
 
 
       
             renderer.render(scene, camera);
         }
 
-        // Resize handling
-        window.addEventListener('resize', () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
-        });
         init();
  
     </script>
