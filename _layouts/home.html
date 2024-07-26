@@ -33,9 +33,9 @@
         </div>
 
  
-    </div>
+    </div> <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    
+     
     <script>  
 
         let scene, camera, renderer, globe;
@@ -49,6 +49,7 @@
 
             renderer = new THREE.WebGLRenderer({antialias: true});
             renderer.setSize(width, height);
+          
             globeContainer.appendChild(renderer.domElement);
 
             camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
@@ -98,7 +99,7 @@
         
         document.addEventListener('DOMContentLoaded', init); 
     </script>
-
+--!>
 
 <footer></footer>
 </body>
