@@ -1,0 +1,86 @@
+html {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth
+    
+}
+
+
+div#header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    width: 100%; /* Full width of the content area */
+    padding: 12px 0px 30px 0px
+
+}
+div#logo a {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none
+}
+div#header #navigation {
+    text-align: right;
+    float: right
+}
+
+div#header #navigation a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: .5rem;
+
+    text-decoration: none;
+
+}
+body {
+    background-color:#fffdf8e1;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 18px;
+    margin: 2em auto;
+    max-width: 1000px;
+    padding: 1em;
+
+}
+footer {
+    margin-top: 10px;
+    border-top: 2px solid white;
+}
+
+div#container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; /* Center items vertically */
+
+    position: relative;
+
+    flex-direction: row;
+    max-width: 100%;
+
+
+}
+
+.wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+ .home-pic {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+ html a:red{
+    color: #b00000
+ }
+ span#blue{
+    color: #03f
+ }
+ html a:maize{
+    color: #ffcb05
+ }
