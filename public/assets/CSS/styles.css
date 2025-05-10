@@ -1,5 +1,5 @@
 html {
-    display: flexbox;
+    display: flex;
     font-size: 30px;
     letter-spacing: 1.5px;
     scroll-behavior: smooth
@@ -8,17 +8,17 @@ html {
 
 
 div#header {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
     margin-bottom: 30px;
     width: 100%; /* Full width of the content area */
-    padding: 12px 0px 20px 0px
+    padding: 12px 0px 30px 0px
 
 }
 div#logo a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: left;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none
 }
@@ -28,19 +28,19 @@ div#header #navigation {
 }
 
 div#header #navigation a {
-    color: white;
-    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     font-weight: bold;
-    margin-left: 12px;
+    margin-left: .5rem;
 
     text-decoration: none;
-    text-transform: uppercase
+
 }
 body {
-    background-color:#0000fe;
-    color: #eee;
-    font-family: Lato;
-    font-size: 16px;
+    background-color:#fffdf8e1;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 18px;
     margin: 2em auto;
     max-width: 1000px;
     padding: 1em;
@@ -64,23 +64,17 @@ div#container{
 
 }
 
-
-    #globe-container, #text-box {
-        width: 100%; /* Full width on smaller screens */
-        max-width: none;
-        padding: 10px;
-    }
-    #text-box {
-        padding-top: 10%;
-        color: white;
-        font-size: 1.5em;
-        text-align: left;
-   
-        top: 50%;
-        left: 50%;
-      
-        width: 50%;
-    }
+.wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+ .home-pic {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
  html a:red{
     color: #b00000
  }
