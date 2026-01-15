@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Garv Patel</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Garv Patel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 May 2025 00:25:44 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>//localhost:1313/blog/first-post/</link>
+      <pubDate>Sat, 10 May 2025 00:25:44 -0400</pubDate>
+      <guid>//localhost:1313/blog/first-post/</guid>
+      <description>&lt;p&gt;This is my first blog post! More to come.&#xA;sdkjfhkjdshfkjdshflkdsjf&#xA;sdfjldshfldshflkdjsfkl&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
